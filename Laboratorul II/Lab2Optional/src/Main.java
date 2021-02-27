@@ -34,15 +34,15 @@ public class Main {
     public static void main(String[] args) {
 
           try {
-                    Source Source1=new Factories("S1", 10);
-                    Source Source2=new Warehouses("S2", 35);
-                    Source Source3=new Warehouses("S3",25);
-                    Destination Destination1= new Destination("D1", 20);
-                    Destination Destination2= new Destination("D2", 25);
-                    Destination Destination3= new Destination("D3", 25);
+                    Source source1=new Factories("S1", 10);
+                    Source source2=new Warehouses("S2", 35);
+                    Source source3=new Warehouses("S3",25);
+                    Destination destination1= new Destination("D1", 20);
+                    Destination destination2= new Destination("D2", 25);
+                    Destination destination3= new Destination("D3", 25);
                     Problem myProblem= new Problem();
-                    myProblem.setSource(Source1,Source2,Source3);
-                    myProblem.setDestination(Destination1,Destination2,Destination3);
+                    myProblem.setSource(source1,source2,source3);
+                    myProblem.setDestination(destination1,destination2,destination3);
                     myProblem.setCost(2,3,1,5,4,8,5,6,8);
                     Solution solution= new Solution();
                     solution.solve(myProblem);
