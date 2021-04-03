@@ -1,1 +1,1 @@
-# Lab-VI-Working with JavaFX. Fixing some detail about the implementation in order for the program to work even if the "user" is not so "friendly". Trying on the thing about "recognise shapes" but I ran out of time..
+# Lab-VII. Fixing some detail about the implementation and alo implementing two types of players: boot (who will choose a random token from the board) and a "manual" player who will use the keyboard. Also, at the end of the game, the program will determine who the winner is based on closed-sequences and values of tokens which forms that closed-sequence.
