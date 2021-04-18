@@ -1,1 +1,1 @@
-# Lab-VII. Fixing some detail about the implementation and alo implementing two types of players: boot (who will choose a random token from the board) and a "manual" player who will use the keyboard. Also, at the end of the game, the program will determine who the winner is based on closed-sequences and values of tokens which forms that closed-sequence.
+# Lab VIII - Working on some details about the code and adding a style for table
