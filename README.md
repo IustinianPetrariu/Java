@@ -1,1 +1,1 @@
-# Lab VIII - Working on some details about the code and adding a style for table
+# Lab IX-to many files for a single directory-'Laboratorul IX'.  Fixing some details about the implementations
